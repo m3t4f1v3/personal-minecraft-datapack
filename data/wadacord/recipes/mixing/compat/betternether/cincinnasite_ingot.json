@@ -1,0 +1,28 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:blaze_powder"
+    },
+    {
+      "tag": "forge:ingots/iron"
+    },
+    {
+      "fluid": "minecraft:lava",
+      "amount": 50
+    }
+  ],
+  "results": [
+    {
+      "item": "betternether:cincinnasite_ingot",
+      "count": 1
+    }
+  ],
+  "heatRequirement": "heated",
+  "conditions": [
+    {
+      "modid": "betternether",
+      "type": "forge:mod_loaded"
+    }
+  ]
+}
